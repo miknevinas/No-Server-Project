@@ -1,0 +1,16 @@
+<h1><span style="color:#ff5b33">C</span>ontact</h1>
+
+<br />
+
+<div class="email-wrapper">
+ <form>
+  Email: <input name="email" type="text" ng-model="email"/><br />
+  Subject: <input name="subject" type="text" ng-model="subject"/><br />
+  Message:<br />
+  <textarea name="comment" rows="15" cols="50" ng-model="message"></textarea><br />
+  <input type="submit" class="submit-email" value="Submit" ng-click="submitEmail(email, subject, message)" />
+  </form>
+</div>
+  
+
+<!--mandrill password: y&&dr@c1ll-->

@@ -1,0 +1,62 @@
+[
+	{
+		"question": "Why do you look so menacing in your profile picture?",
+		"answer": "The photographer said my face looks too chubby when I smile.",
+        "cool": 0,
+        "lame": 0
+	},
+    {
+		"question": "Was this section made with a custom Angular directive written by your own hand?",
+		"answer": "Why, yes! How did you know?",
+        "cool": 0,
+        "lame": 0
+	},
+    {
+		"question": "Why are you always wearing beanies?",
+		"answer": "I'm training my hair to look like John Wick.",
+        "cool": 0,
+        "lame": 0
+	},
+    {
+		"question": "What is the best Ipsom?",
+		"answer": "Hipster Ipsum FTW.",
+        "cool": 0,
+        "lame": 0
+	},
+    {
+		"question": "Describe JavaScript Module Patterns in one word or less.",
+		"answer": "Pass.",
+        "cool": 0,
+        "lame": 0
+	},
+    {
+		"question": "What is your favorite quote from a lesser-known comedian?",
+		"answer": "'The universe is expanding. That should help ease the traffic.'",
+        "cool": 0,
+        "lame": 0
+	},
+    {
+		"question": "Why is Provo the worst?",
+		"answer": "It just is.",
+        "cool": 0,
+        "lame": 0
+	},
+    {
+		"question": "What is ultimate answer to the ultimate question?",
+		"answer": "42.",
+        "cool": 0,
+        "lame": 0
+	},
+    {
+		"question": "'42?'",
+		"answer": "6 * 7, obviously.",
+        "cool": 0,
+        "lame": 0
+	},
+    {
+		"question": "Why do you even have a FAQ section?",
+		"answer": "For funsies.",
+        "cool": 0,
+        "lame": 0
+	}
+]

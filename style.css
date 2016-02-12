@@ -1,0 +1,502 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body {
+    display: block;
+    height: auto;
+    padding: 0px;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-style: none;
+    min-width: 480px;
+}
+
+.wrapper {
+    position: relative;
+    display: block;
+    min-height: 95vh;
+    height: auto;
+    padding: 0px;
+    width: 80%;
+    min-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid lightgray;   
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 110px;
+    font-family: "Indie Flower";
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+}
+
+.myname {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    color: gray;
+    font-size: 3em;
+}
+
+.navbar {
+    right: 10px;
+    bottom: 0px;
+    position: absolute;
+    
+}
+
+ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: gray;
+    font-family: "Indie Flower";
+    font-size: 2em;
+}
+
+a:hover {
+    color: #ff5b33;
+    text-decoration: none;
+    opacity: 0.9;
+    -webkit-transition: all .7s ease;
+     -moz-transition: all .7s ease;
+       -o-transition: all .7s ease;
+      -ms-transition: all .7s ease;
+          transition: all .7s ease;
+}
+
+.view-container {
+    width: 100%;
+    /*min-width: 480px;*/
+    margin: auto;
+    position: relative;
+    height: auto;
+}
+
+.profilepic {
+    margin: auto;
+    position: relative;
+    left: 120px;
+    top: 80px;
+    border-radius: 60%;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3);
+}
+
+.home-qualities {
+    float: right;
+    margin-right: 50px;
+    font-size: 3em;
+    font-family: "Josefin Slab";
+    color: gray;
+}
+
+.skills {
+    margin-left: 110px;
+    float: left;
+}
+
+.skills img {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.icons {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+    font-family: "Indie Flower";
+    
+}
+
+.work {
+    text-align: center;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    position:relative;
+    width:550px;
+    height:auto;
+    font-family: "Josefin Slab";
+    font-style: italic;
+    line-height: 24px;
+    font-weight: bold;
+    color: gray;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:10px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.boxjump {
+    height: auto; 
+    width: 400px; 
+    margin: auto
+}
+.resume {
+    background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    margin: auto;
+    position:relative;
+    width:550px;
+    height:auto;
+    font-family: "Josefin Slab";
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 24px;
+    font-weight: bold;
+    color: gray;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:10px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.faqs {
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    position:relative;
+    width:550px;
+    height:auto;
+    font-family: "Josefin Slab";
+    font-style: italic;
+    line-height: 24px;
+    font-weight: bold;
+    color: gray;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:10px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cool, .lame {
+    width:50px;
+    right:20px;
+    bottom:20px;
+    background:#ff5b33;
+    color:#fff;
+    font-family: "Indie Flower";
+    height:25px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: 1p solid #999;
+}
+
+.cool:hover, .lame:hover {
+    background:#fff;
+    color:#ff5b33;
+    -webkit-transition: all .3s ease;
+     -moz-transition: all .3s ease;
+       -o-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+          transition: all .3s ease;
+}
+
+.email-wrapper {
+    position: absolute;
+    margin: auto;
+    left: 23%;
+    
+}
+
+form {
+    background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    margin:auto;
+    position:relative;
+    width:550px;
+    height:450px;
+    font-family: "Indie Flower";
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    font-weight: bold;
+    color: #ff5b33;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:10px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    width:375px;
+    display:block;
+    border: 1px solid #999;
+    height: 25px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 3);
+}
+
+.submit-email {
+    width:100px;
+    position:absolute;
+    right:20px;
+    bottom:20px;
+    background:#ff5b33;
+    color:#fff;
+    font-family: "Indie Flower";
+    height:30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: 1p solid #999;
+}
+
+.submit-email:hover {
+    background:#fff;
+    color:#ff5b33;
+    -webkit-transition: all .7s ease;
+     -moz-transition: all .7s ease;
+       -o-transition: all .7s ease;
+      -ms-transition: all .7s ease;
+          transition: all .7s ease;
+}
+
+textarea:focus, input:focus {
+    border: 1px solid #09C;
+}
+
+@media screen and (max-width: 1540px) {
+    .wrapper {
+        min-height: 110vh;
+    }
+    .profilepic {
+        width: 200px;
+        height: 200px;
+        left: 30px;
+        top: 30px;
+    }
+    a:link {
+        font-size: 1.5em;
+    }
+    .myname {
+        font-size: 2em;
+    }
+    .home-qualities {
+        font-size: 2em;
+    }
+    .skills img {
+        height: auto;
+        width: 100px;
+    }
+    .email-wrapper {
+       left: 11%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .wrapper {
+        min-height: 110vh;
+    }
+    .profilepic {
+        width: 200px;
+        height: 200px;
+        left: 80px;
+        top: 30px;
+    }
+    a:link {
+        font-size: 1.5em;
+    }
+    .myname {
+        font-size: 2em;
+        top:40px;
+    }
+    .navbar {
+        bottom: 8px;
+    }
+    .home-qualities {
+        font-size: 2em;
+    }
+    .skills {
+    margin-left: 90px;
+    float: left;
+}
+    .skills img {
+        height: auto;
+        width: 100px;
+    }
+    .faqs , .resume{
+        width: 450px;
+        font-size: 1em;
+        margin-left: 80px;
+    }
+    .email-wrapper {
+       left: 11%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    form {
+        width: auto;
+        height: 300px;
+    }
+    textarea {
+        width: auto;
+        height: 30px;
+    }
+    .wrapper {
+        min-height: 110vh;
+    }
+    .profilepic {
+        width: 200px;
+        height: 200px;
+        left: 30px;
+        top: 30px;
+    }
+    a:link {
+        font-size: 1.5em;
+    }
+    .myname {
+        font-size: 2em;
+    }
+    .home-qualities {
+        font-size: 2em;
+    }
+    .skills img {
+        height: auto;
+        width: 100px;
+    }
+    .email-wrapper {
+       left: 11%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        min-height: 140vh;
+    }
+    .profilepic {
+        width: 0px;
+        height: 0px;
+        left: 30px;
+        top: 30px;
+    }
+    a:link {
+        font-size: 1.5em;
+    }
+    .myname {
+        font-size: 0em;
+    }
+    .home-qualities {
+        font-size: 1.5em;
+        text-align: center;
+        float: none;
+        padding-right: 80px;
+    }
+    .skills {
+        margin-left: 10px;
+    }
+    .skills img {
+        margin-left: 0px;
+        height: auto;
+        width: 100px;
+    }
+    .email-wrapper {
+       left: 11%;
+    }
+    .work, .resume, .faqs {
+        width: 300px;
+        height: auto;
+    }
+    .boxjump {
+        width: 200px;
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .work, .resume, .faqs {
+        margin-left: auto;
+    }
+    .boxjump {
+        width: 200px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 745px) {
+    .wrapper {
+        min-height: 140vh;
+    }
+    .profilepic {
+        width: 0px;
+        height: 0px;
+        left: 30px;
+        top: 30px;
+    }
+    a:link {
+        font-size: 1.5em;
+    }
+    .myname {
+        font-size: 0em;
+    }
+    .home-qualities {
+        font-size: 1.5em;
+        text-align: center;
+        float: none;
+        padding-right: 80px;
+    }
+    .skills {
+        margin-left: 10px;
+    }
+    .skills img {
+        margin-left: 0px;
+        height: auto;
+        width: 100px;
+    }
+    .email-wrapper {
+       left: 11%;
+    }
+}

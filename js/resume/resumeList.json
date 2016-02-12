@@ -1,0 +1,20 @@
+[
+	{
+		"position": "Student",
+        "company": "Devmountain",
+		"description": "Messenger bag pour-over venmo, four loko vinyl gentrify drinking vinegar mlkshk authentic banh mi kale chips shabby chic. Flannel paleo chia +1. Banh mi chillwave portland tilde fanny pack, kickstarter mustache scenester dreamcatcher wayfarers. Biodiesel austin shoreditch keffiyeh art party hammock mlkshk, chartreuse chambray pug small batch hashtag taxidermy post-ironic cold-pressed. Mustache neutra cardigan keffiyeh. Skateboard brunch blog godard 8-bit squid, lomo fanny pack chambray trust fund quinoa literally. Whatever pickled messenger bag forage.",
+        "image": ""
+	},
+    {
+		"position": "Community Manager",
+        "company": "Friendemic",
+		"description": "Sriracha meditation four loko green juice semiotics shabby chic gochujang. Viral VHS listicle aesthetic, retro plaid cred PBR&B scenester four loko meditation migas XOXO. Literally narwhal 90's fixie williamsburg, etsy normcore. Vice four dollar toast pop-up ethical, trust fund wayfarers meditation mustache offal bicycle rights quinoa fanny pack neutra franzen. Freegan sustainable green juice fanny pack 3 wolf moon jean shorts. Fashion axe flannel synth banjo, vinyl austin freegan humblebrag truffaut selfies ethical blue bottle hammock master cleanse. Everyday carry ennui mlkshk, church-key humblebrag slow-carb XOXO plaid polaroid cronut master cleanse single-origin coffee.",
+        "image": ""
+	},
+    {
+		"position": "Copywriter",
+        "company": "Precision Time",
+		"description": "Banh mi twee 8-bit 90's lomo venmo master cleanse, everyday carry narwhal occupy small batch chambray squid. Tilde blue bottle meh shabby chic kale chips franzen. IPhone artisan fap bespoke microdosing, scenester cornhole direct trade intelligentsia swag single-origin coffee chartreuse vice ennui irony. Marfa yr kale chips distillery ennui tacos. Meggings lo-fi pinterest, master cleanse iPhone health goth literally celiac put a bird on it cornhole lomo bicycle rights banh mi mustache. Bushwick meditation etsy, hammock selvage mumblecore portland post-ironic vinyl paleo bitters distillery keffiyeh aesthetic readymade. Taxidermy scenester brunch kinfolk venmo mustache.",
+        "image": ""
+	}
+]
