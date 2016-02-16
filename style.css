@@ -9,11 +9,10 @@ html, body {
     display: block;
     height: auto;
     padding: 0px;
-    width: 80%;
+    width: 90%;
     margin: auto;
-    background-color: white;
     border-style: none;
-    min-width: 480px;
+    background-image: url("images/fabric_of_squares_gray.png");
 }
 
 .wrapper {
@@ -23,11 +22,9 @@ html, body {
     height: auto;
     padding: 0px;
     width: 80%;
-    min-width: 80%;
     margin: auto;
     margin-top: 50px;
-    background-color: white;
-    border: 1px solid lightgray;   
+    background-image: url("images/fabric_of_squares_gray.png");
 }
 
 .header {
@@ -37,6 +34,7 @@ html, body {
     font-family: "Indie Flower";
     margin: auto;
     border-bottom: 1px solid lightgray;
+    background-image: url("images/fabric_of_squares_gray.png");
 }
 
 .myname {
@@ -79,7 +77,6 @@ a:hover {
 
 .view-container {
     width: 100%;
-    /*min-width: 480px;*/
     margin: auto;
     position: relative;
     height: auto;
@@ -91,7 +88,6 @@ a:hover {
     left: 120px;
     top: 80px;
     border-radius: 60%;
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3);
 }
 
 .home-qualities {
@@ -127,7 +123,7 @@ h1 {
     
 }
 
-.work {
+.work, .resume, .faqs {
     text-align: center;
     margin: auto;
     font-family: sans-serif;
@@ -135,10 +131,9 @@ h1 {
     background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
     background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
     position:relative;
-    width:550px;
+    width:100%;
     height:auto;
     font-family: "Josefin Slab";
-    font-style: italic;
     line-height: 24px;
     font-weight: bold;
     color: gray;
@@ -149,66 +144,13 @@ h1 {
     padding:10px;
     border: 1px solid #999;
     border: inset 1px solid #333;
-    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    background-color: white;
 }
 
 .boxjump {
     height: auto; 
     width: 400px; 
     margin: auto
-}
-.resume {
-    background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
-    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-    margin: auto;
-    position:relative;
-    width:550px;
-    height:auto;
-    font-family: "Josefin Slab";
-    font-size: 1.2em;
-    font-style: italic;
-    line-height: 24px;
-    font-weight: bold;
-    color: gray;
-    text-decoration: none;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    padding:10px;
-    border: 1px solid #999;
-    border: inset 1px solid #333;
-    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-
-}
-
-.faqs {
-    margin: auto;
-    font-family: sans-serif;
-    font-size: 1.3em;
-    background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
-    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-    position:relative;
-    width:550px;
-    height:auto;
-    font-family: "Josefin Slab";
-    font-style: italic;
-    line-height: 24px;
-    font-weight: bold;
-    color: gray;
-    text-decoration: none;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    padding:10px;
-    border: 1px solid #999;
-    border: inset 1px solid #333;
-    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
 .cool, .lame {
@@ -236,9 +178,8 @@ h1 {
 }
 
 .email-wrapper {
-    position: absolute;
+    display: block;
     margin: auto;
-    left: 23%;
     
 }
 
@@ -247,11 +188,10 @@ form {
     background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
     margin:auto;
     position:relative;
-    width:550px;
+    width:100%;
     height:450px;
     font-family: "Indie Flower";
     font-size: 14px;
-    font-style: italic;
     line-height: 24px;
     font-weight: bold;
     color: #ff5b33;
@@ -262,19 +202,21 @@ form {
     padding:10px;
     border: 1px solid #999;
     border: inset 1px solid #333;
-    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    background-color: white;
 }
 
 input {
-    width:375px;
+    width:90%;
     display:block;
     border: 1px solid #999;
     height: 25px;
-    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 3);
-    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 3);
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 3);
+}
+
+textarea {
+    width:90%;
+    display:block;
+    border: 1px solid #999;
+    height: 75px
 }
 
 .submit-email {
@@ -289,7 +231,6 @@ input {
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
-    border: 1p solid #999;
 }
 
 .submit-email:hover {
@@ -365,14 +306,6 @@ textarea:focus, input:focus {
         height: auto;
         width: 100px;
     }
-    .faqs , .resume{
-        width: 450px;
-        font-size: 1em;
-        margin-left: 80px;
-    }
-    .email-wrapper {
-       left: 11%;
-    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -406,9 +339,6 @@ textarea:focus, input:focus {
         height: auto;
         width: 100px;
     }
-    .email-wrapper {
-       left: 11%;
-    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -424,7 +354,11 @@ textarea:focus, input:focus {
     a:link {
         font-size: 1.5em;
     }
+    
     .myname {
+        font-size: 1.5em;
+    }
+    .navbar {
         font-size: 0em;
     }
     .home-qualities {
@@ -440,13 +374,6 @@ textarea:focus, input:focus {
         margin-left: 0px;
         height: auto;
         width: 100px;
-    }
-    .email-wrapper {
-       left: 11%;
-    }
-    .work, .resume, .faqs {
-        width: 300px;
-        height: auto;
     }
     .boxjump {
         width: 200px;
@@ -464,39 +391,4 @@ textarea:focus, input:focus {
         height: auto;
     }
 
-}
-
-@media screen and (max-width: 745px) {
-    .wrapper {
-        min-height: 140vh;
-    }
-    .profilepic {
-        width: 0px;
-        height: 0px;
-        left: 30px;
-        top: 30px;
-    }
-    a:link {
-        font-size: 1.5em;
-    }
-    .myname {
-        font-size: 0em;
-    }
-    .home-qualities {
-        font-size: 1.5em;
-        text-align: center;
-        float: none;
-        padding-right: 80px;
-    }
-    .skills {
-        margin-left: 10px;
-    }
-    .skills img {
-        margin-left: 0px;
-        height: auto;
-        width: 100px;
-    }
-    .email-wrapper {
-       left: 11%;
-    }
 }

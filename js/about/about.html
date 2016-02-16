@@ -1,10 +1,10 @@
 <h1><span style="color:#ff5b33">F</span>requently Asked Questions</h1>
 
-<ul>
+<div class="container">
     <div class='faqs' ng-repeat="faq in faqs track by $index">
       <div class='questions'><span style="color: #ff5b33">Q: </span>{{faq.question}}</div>
       <div class='answers'><span style="color: #ff5b33">A: </span>{{faq.answer}}</div>
       <button class="cool" ng-click="coolBox($index)">Cool</button> {{faq.cool}}
       <button class="lame" ng-click="lameBox($index)">Lame</button> {{faq.lame}}
     </div>
-</ul>
+</div>
