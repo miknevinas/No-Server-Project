@@ -107,7 +107,8 @@ a:hover {
     position: relative;
     display: inline-block;
     text-align: center;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .skills img {
@@ -257,9 +258,6 @@ textarea:focus, input:focus {
 
 
 @media screen and (max-width: 1400px) {
-    .wrapper {
-        min-height: 110vh;
-    }
     a:link {
         font-size: 1.5em;
     }
@@ -273,10 +271,6 @@ textarea:focus, input:focus {
     .home-qualities {
         font-size: 2em;
     }
-    .skills {
-    margin-left: 90px;
-    float: left;
-}
     .skills img {
         height: auto;
         width: 100px;
@@ -291,9 +285,6 @@ textarea:focus, input:focus {
     textarea {
         width: auto;
         height: 30px;
-    }
-    .wrapper {
-        min-height: 110vh;
     }
     a:link {
         font-size: 1.5em;
@@ -311,13 +302,6 @@ textarea:focus, input:focus {
 }
 
 @media screen and (max-width: 1200px) {
-    .wrapper {
-        min-height: 140vh;
-    }
-    .profilepic {
-        width: 0px;
-        height: 0px;
-    }
     a:link {
         font-size: 1.5em;
     }
@@ -333,9 +317,6 @@ textarea:focus, input:focus {
         text-align: center;
         float: none;
         padding-right: 80px;
-    }
-    .skills {
-        margin-left: 10px;
     }
     .skills img {
         margin-left: 0px;
@@ -357,5 +338,11 @@ textarea:focus, input:focus {
         width: 200px;
         height: auto;
     }
+}
 
+@media screen and (max-width: 500px) {
+    .profilepic {
+        width: 0px;
+        height: 0px;
+    }
 }
