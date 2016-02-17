@@ -83,37 +83,44 @@ a:hover {
 }
 
 .profilepic {
-    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    left: 120px;
-    top: 80px;
+    top: 20px;
     border-radius: 60%;
 }
 
 .home-qualities {
-    float: right;
-    margin-right: 50px;
+    position: relative;
     font-size: 3em;
     font-family: "Josefin Slab";
     color: gray;
+    text-align: center;
+}
+
+.container {
+    position: relative;
 }
 
 .skills {
-    margin-left: 110px;
-    float: left;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .skills img {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 20px;
     padding: 10px;
+    width: 128px;
+    height: 128px;
 }
 
 .icons {
     position: absolute;
     bottom: 5px;
     right: 10px;
+    padding-top: 5px;
 }
 
 h1 {
@@ -147,9 +154,10 @@ h1 {
     background-color: white;
 }
 
-.boxjump {
+.manuels {
+    position: relative;
     height: auto; 
-    width: 400px; 
+    width: 100%; 
     margin: auto
 }
 
@@ -164,7 +172,6 @@ h1 {
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
-    border: 1p solid #999;
 }
 
 .cool:hover, .lame:hover {
@@ -247,43 +254,11 @@ textarea:focus, input:focus {
     border: 1px solid #09C;
 }
 
-@media screen and (max-width: 1540px) {
-    .wrapper {
-        min-height: 110vh;
-    }
-    .profilepic {
-        width: 200px;
-        height: 200px;
-        left: 30px;
-        top: 30px;
-    }
-    a:link {
-        font-size: 1.5em;
-    }
-    .myname {
-        font-size: 2em;
-    }
-    .home-qualities {
-        font-size: 2em;
-    }
-    .skills img {
-        height: auto;
-        width: 100px;
-    }
-    .email-wrapper {
-       left: 11%;
-    }
-}
+
 
 @media screen and (max-width: 1400px) {
     .wrapper {
         min-height: 110vh;
-    }
-    .profilepic {
-        width: 200px;
-        height: 200px;
-        left: 80px;
-        top: 30px;
     }
     a:link {
         font-size: 1.5em;
@@ -320,12 +295,6 @@ textarea:focus, input:focus {
     .wrapper {
         min-height: 110vh;
     }
-    .profilepic {
-        width: 200px;
-        height: 200px;
-        left: 30px;
-        top: 30px;
-    }
     a:link {
         font-size: 1.5em;
     }
@@ -348,8 +317,6 @@ textarea:focus, input:focus {
     .profilepic {
         width: 0px;
         height: 0px;
-        left: 30px;
-        top: 30px;
     }
     a:link {
         font-size: 1.5em;
