@@ -9,61 +9,41 @@ html, body {
     display: block;
     height: auto;
     padding: 0px;
-    width: 90%;
+    width: 100%;
     margin: auto;
     border-style: none;
-    background-image: url("images/fabric_of_squares_gray.png");
-}
-
-.wrapper {
-    position: relative;
-    display: block;
-    min-height: 95vh;
-    height: auto;
-    padding: 0px;
-    width: 80%;
-    margin: auto;
-    margin-top: 50px;
-    background-image: url("images/fabric_of_squares_gray.png");
+    background-color: #fff;
 }
 
 .header {
+    color: black;
     position: relative;
     width: 100%;
     height: 110px;
-    font-family: "Indie Flower";
+    font-family: "Josefin Slab";
     margin: auto;
-    border-bottom: 1px solid lightgray;
-    background-image: url("images/fabric_of_squares_gray.png");
 }
 
-.myname {
-    position: absolute;
-    left: 30px;
+.title {
+    position: relative;
     top: 30px;
-    color: gray;
-    font-size: 3em;
+    left: 30px;
+    color: black;
+    font-size: 2em;
 }
 
-.navbar {
-    right: 10px;
-    bottom: 0px;
+.icons {
+    color: black;
+    display: block;
+    right: 30px;
+    top: 30px;
     position: absolute;
-    
-}
-#mobilenav {
-    display: none;
-}
-
-ul li {
-    display: inline-block;
-    padding: 5px;
 }
 
 a:link, a:visited {
     text-decoration: none;
-    color: gray;
-    font-family: "Indie Flower";
+    color: black;
+    font-family: "Josefin Slab";
     font-size: 2em;
 }
 
@@ -78,18 +58,18 @@ a:hover {
           transition: all .7s ease;
 }
 
-.view-container {
-    width: 100%;
+.views {
+    width: 80%;
     margin: auto;
     position: relative;
     height: auto;
 }
 
 .home-qualities {
-    position: relative;
-    font-size: 3em;
+    padding: 0px;
+    font-size: 2em;
     font-family: "Josefin Slab";
-    color: gray;
+    color: black;
     text-align: center;
 }
 
@@ -97,32 +77,12 @@ a:hover {
     position: relative;
 }
 
-.skills {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.skills img {
-    padding: 10px;
-    width: 128px;
-    height: 128px;
-}
-
-.icons {
-    position: absolute;
-    bottom: 5px;
-    right: 10px;
-    padding-top: 5px;
-}
 
 h1 {
-    text-align: center;
-    color: gray;
-    font-family: "Indie Flower";
-    
+/*    text-align: center;*/
+    color: black;
+    font-family: "Josefin Slab";
+    margin: 0px;
 }
 
 .work, .resume, .faqs {
@@ -130,19 +90,16 @@ h1 {
     margin: auto;
     font-family: sans-serif;
     font-size: 1.3em;
-    background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
-    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
     position:relative;
     width:100%;
     height:auto;
     font-family: "Josefin Slab";
     line-height: 24px;
-    font-weight: bold;
-    color: gray;
+    color: black;
     text-decoration: none;
     padding:10px;
-    background-color: white;
-    border-bottom: 1px solid lightgray;
+    background-color: none;
+/*    border-bottom: 1px solid lightgray;*/
 }
 
 .manuels {
@@ -158,7 +115,7 @@ h1 {
     bottom:20px;
     background:#ff5b33;
     color:#fff;
-    font-family: "Indie Flower";
+    font-family: "Josefin Slab";
     height:25px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -178,7 +135,6 @@ h1 {
 .email-wrapper {
     display: block;
     margin: auto;
-    
 }
 
 form {
@@ -188,7 +144,7 @@ form {
     position:relative;
     width:100%;
     height:450px;
-    font-family: "Indie Flower";
+    font-family: "Josefin Slab";
     font-size: 14px;
     line-height: 24px;
     font-weight: bold;
@@ -198,21 +154,21 @@ form {
     -moz-border-radius: 10px;
     border-radius: 10px;
     padding:10px;
-    background-color: white;
+    
 }
 
 input {
-    width:90%;
+    width:100%;
     display:block;
     border: 1px solid #999;
     height: 25px;
 }
 
 textarea {
-    width:90%;
+    width:100%;
     display:block;
     border: 1px solid #999;
-    height: 75px
+    height: 200px
 }
 
 .submit-email {
@@ -222,7 +178,7 @@ textarea {
     bottom:20px;
     background:#ff5b33;
     color:#fff;
-    font-family: "Indie Flower";
+    font-family: "Josefin Slab";
     height:30px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -243,90 +199,9 @@ textarea:focus, input:focus {
     border: 1px solid #09C;
 }
 
-
-
-@media screen and (max-width: 1400px) {
-    a:link {
-        font-size: 1.5em;
-    }
-    .myname {
-        font-size: 2em;
-        top:40px;
-    }
-    .navbar {
-        bottom: 8px;
-    }
-    .home-qualities {
-        font-size: 2em;
+@media screen and (max-width: 400px) {
+    .title {
+        font-size: 1em;
     }
  
-}
-
-@media screen and (max-width: 1300px) {
-    form {
-        width: auto;
-        height: 300px;
-    }
-    textarea {
-        width: auto;
-        height: 30px;
-    }
-    a:link {
-        font-size: 1.5em;
-    }
-    .myname {
-        font-size: 2em;
-    }
-    .home-qualities {
-        font-size: 2em;
-    }
-    .skills img {
-        height: auto;
-        width: 100px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    a:link {
-        font-size: 1.5em;
-    }
-    
-    .myname {
-        font-size: 1.5em;
-    }
-    .navbar {
-        font-size: 0em;
-    }
-    #moblenav {
-        display: block;
-    }
-    .home-qualities {
-        font-size: 1.5em;
-        text-align: center;
-        float: none;
-        padding-right: 80px;
-    }
-    .skills img {
-        margin-left: 0px;
-        height: auto;
-        width: 100px;
-    }
-    .boxjump {
-        width: 200px;
-        height: auto;
-    }
-    
-}
-
-@media screen and (max-width: 900px) {
-    .work, .resume, .faqs {
-        margin-left: auto;
-    }
-    .boxjump {
-        width: 200px;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 500px) {
 }

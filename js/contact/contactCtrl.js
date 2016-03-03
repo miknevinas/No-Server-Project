@@ -1,10 +1,6 @@
-angular.module('portfolioApp').directive('contactDir', function(){
+angular.module('portfolioApp').controller('contactCtrl', function($scope, contactSvc){
     
-    return {
-        templateUrl: 'js/contact/contact.html',
-        restrict: 'E',
-    
-        controller: function($scope, contactSvc) {
+ 
             $scope.submitEmail = function(email, subject, message) {
                     var char = email.search("@");
                     if (char === -1) {
@@ -26,7 +22,7 @@ angular.module('portfolioApp').directive('contactDir', function(){
                 }
                 
             }
-        }
-    }
+        
+    
     
 })
