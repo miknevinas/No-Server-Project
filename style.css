@@ -104,8 +104,9 @@ h1 {
 
 .manuels {
     position: relative;
+    display: block;
     height: auto; 
-    width: 100%; 
+    width: 80%; 
     margin: auto
 }
 
