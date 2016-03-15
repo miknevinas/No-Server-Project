@@ -68,12 +68,43 @@ a:hover {
 .home-qualities {
     padding: 0px;
     font-size: 2em;
-    font-family: "Josefin Slab";
+    font-family: "Courier";
     color: black;
     text-align: center;
 }
 
-.container {
+.home-qualities:after {
+    visibility: visible;
+    content: '';
+    background-color: gray;
+    display: inline-block;
+    position: relative;
+    width: 0.5em;
+    height: 1em;
+    top: 5px;
+    margin-left: 0;
+    -moz-animation: flicker 0.1s steps(2, start) infinite, ready 1s steps(2, start) 25s infinite;
+    -webkit-animation: flicker 0.1s steps(2, start) infinite, ready 1s steps(2, start) 25s infinite;
+    animation: blink 1s infinite;
+}
+@keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+} 
+
+@keyframes blink{
+    to{opacity: .0;}
+}
+
+.typed-cursor{
+    display: none;
+}
+.homeContainer {
+    position: relative;
+    height: 100vh;
+}
+.resumeContainer {
     position: relative;
 }
 
@@ -99,7 +130,6 @@ h1 {
     text-decoration: none;
     padding:10px;
     background-color: none;
-/*    border-bottom: 1px solid lightgray;*/
 }
 
 .manuels {
@@ -108,6 +138,11 @@ h1 {
     height: auto; 
     width: 80%; 
     margin: auto
+}
+
+.resume .link {
+    color: #ff5b33;
+    font-size: 1em;
 }
 
 .cool, .lame {
@@ -204,5 +239,4 @@ textarea:focus, input:focus {
     .title {
         font-size: 1em;
     }
- 
 }
